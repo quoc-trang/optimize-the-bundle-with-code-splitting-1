@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply p-10;
+}
+
+h1 {
+  @apply text-3xl font-bold mb-5;
+}
+
+.posts {
+  @apply grid gap-4 grid-cols-3;
+}
+.card {
+  @apply h-full shadow-xl  bg-base-200;
+}
+
+label {
+  @apply w-full max-w-xs form-control;
+}
+input {
+  @apply w-full max-w-xs input input-bordered;
+}
+
+.card-actions {
+  @apply justify-end mt-3 items-center justify-between;
+}

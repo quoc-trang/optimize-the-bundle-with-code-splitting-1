@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "username": "johndoe",
+    "avatar": "/johndoe-avatar.png",
+    "password": "vueisawesome"
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "username": "janedoe",
+    "avatar": "/janedoe-avatar.png",
+    "password": "vueisawesome"
+  }
+]

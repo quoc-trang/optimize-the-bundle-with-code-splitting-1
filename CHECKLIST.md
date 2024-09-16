@@ -1,0 +1,2 @@
+- The page components are only loaded when their respective routes are visited
+- The `PostComments` component is only loaded when the comments are needed on the page.
