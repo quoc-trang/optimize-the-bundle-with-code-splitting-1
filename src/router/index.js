@@ -1,10 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "../views/index.vue";
-import PostShow from "../views/[id].vue";
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/:id", component: PostShow },
+  { path: "/", component: () => import("../views/index.vue") },
+  { path: "/:id", component: () => import("../views/[id].vue") },
 ];
 
 export const router = createRouter({
